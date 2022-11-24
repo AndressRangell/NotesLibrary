@@ -33,8 +33,7 @@ class MainActivity : ComponentActivity() {
                                 title = "Prueba",
                                 content = "Prueba",
                                 color = RedOrange.toArgb(),
-                                modifier = Modifier
-                                    .fillMaxWidth()
+                                modifier = Modifier.fillMaxWidth()
                             )
                             Spacer(modifier = Modifier.height(16.dp))
                         }
